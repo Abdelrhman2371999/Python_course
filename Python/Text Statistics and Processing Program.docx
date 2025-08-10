@@ -1,0 +1,124 @@
+عنوان المهمة: برنامج إحصاء ومعالجة النصوص
+المطلوب:
+قم بإنشاء برنامج بلغة بايثون يطلب من المستخدم إدخال نص، ثم يعرض قائمة (Menu) تحتوي على عدة خيارات، بحيث يتم تنفيذ العملية التي يختارها المستخدم. البرنامج يجب أن يدعم الوظائف التالية:
+
+حساب عدد الحروف في النص.
+
+حساب عدد الكلمات في النص.
+
+عرض عدد مرات تكرار كل كلمة في النص.
+
+عرض النص بشكل معكوس.
+
+تحويل النص إلى أحرف كبيرة (UPPERCASE).
+
+تحويل النص إلى أحرف صغيرة (lowercase).
+
+الخروج من البرنامج.
+
+ملاحظات:
+
+التأكد من أن البرنامج يعمل بشكل متكرر حتى يختار المستخدم خيار الخروج.
+
+التعامل مع المدخلات بطريقة صحيحة بحيث لا يتوقف البرنامج بسبب إدخال خاطئ.
+
+
+Task Title: Text Statistics and Processing Program
+Requirements:
+Create a Python program that asks the user to enter a text, then displays a menu with several options. The program should perform the selected operation based on the user’s choice. The program must support the following functions:
+
+Count the number of characters in the text.
+
+Count the number of words in the text.
+
+Display the frequency (number of occurrences) of each word in the text.
+
+Display the text in reverse order.
+
+Convert the text to UPPERCASE.
+
+Convert the text to lowercase.
+
+Exit the program.
+
+Notes:
+
+The program should keep running until the user chooses to exit.
+
+Handle inputs properly so the program does not crash due to invalid entries.
+===========================================================================
+أدخل النص: Hello world hello Python
+
+--- القائمة ---
+1 - حساب عدد الحروف
+2 - حساب عدد الكلمات
+3 - عرض تكرار الكلمات
+4 - عرض النص معكوس
+5 - تحويل النص إلى أحرف كبيرة
+6 - تحويل النص إلى أحرف صغيرة
+7 - خروج
+اختر رقم العملية: 1
+عدد الحروف: 26
+
+--- القائمة ---
+1 - حساب عدد الحروف
+2 - حساب عدد الكلمات
+3 - عرض تكرار الكلمات
+4 - عرض النص معكوس
+5 - تحويل النص إلى أحرف كبيرة
+6 - تحويل النص إلى أحرف صغيرة
+7 - خروج
+اختر رقم العملية: 3
+تكرار الكلمات:
+hello: 2
+world: 1
+python: 1
+
+--- القائمة ---
+1 - حساب عدد الحروف
+2 - حساب عدد الكلمات
+3 - عرض تكرار الكلمات
+4 - عرض النص معكوس
+5 - تحويل النص إلى أحرف كبيرة
+6 - تحويل النص إلى أحرف صغيرة
+7 - خروج
+اختر رقم العملية: 7
+تم الخروج. مع السلامة!
+==================================================================\
+Enter a text: Hello world hello Python
+
+--- MENU ---
+1 - Count characters
+2 - Count words
+3 - Show word frequency
+4 - Reverse the text
+5 - Convert to UPPERCASE
+6 - Convert to lowercase
+7 - Exit
+Enter your choice: 1
+Number of characters: 26
+
+--- MENU ---
+1 - Count characters
+2 - Count words
+3 - Show word frequency
+4 - Reverse the text
+5 - Convert to UPPERCASE
+6 - Convert to lowercase
+7 - Exit
+Enter your choice: 3
+Word frequencies:
+hello: 2
+world: 1
+python: 1
+
+--- MENU ---
+1 - Count characters
+2 - Count words
+3 - Show word frequency
+4 - Reverse the text
+5 - Convert to UPPERCASE
+6 - Convert to lowercase
+7 - Exit
+Enter your choice: 7
+Goodbye!

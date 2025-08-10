@@ -1,0 +1,156 @@
+📄 وصف البرنامج | Program Description
+English
+You are required to design a Library Management Program.
+The system should allow the librarian to:
+
+Add a new book by entering the title, author, publication year, unique book ID, and status (default is "available" if not entered).
+
+Display all books currently stored in the system, showing all details (ID, title, author, year, status).
+
+Search for a book in three ways:
+
+By Book ID
+
+By Book Title
+
+By Book Status ("available" or "borrowed")
+
+Exit the program when finished.
+
+The program should keep running until the user chooses to exit.
+===========================================================================================
+
+العربية
+المطلوب تصميم برنامج لإدارة مكتبة.
+يجب أن يسمح النظام لأمين المكتبة بـ:
+
+إضافة كتاب جديد عن طريق إدخال العنوان، اسم المؤلف، سنة النشر، رقم تعريف الكتاب الفريد، وحالة الكتاب (افتراضيًا "متاح" إذا لم تُدخل).
+
+عرض جميع الكتب المخزنة حاليًا في النظام، مع عرض جميع التفاصيل (رقم الكتاب، العنوان، المؤلف، سنة النشر، الحالة).
+
+البحث عن كتاب بثلاث طرق:
+
+برقم الكتاب (Book ID)
+
+بعنوان الكتاب (Title)
+
+بحالة الكتاب ("متاح" أو "مستعار")
+
+إنهاء البرنامج عند الانتهاء.
+
+يجب أن يستمر البرنامج في العمل حتى يختار المستخدم الخروج.
+===================================================================================
+📌 Sample Input / Output
+(Example for understanding – students’ code should produce similar behavior)
+
+English Example
+
+=== Library Management System ===
+1. Add Book
+2. Display All Books
+3. Exit
+4. Search Book
+Enter your choice: 1
+
+Add a New Book
+Enter book title: Python Basics
+Enter author name: John Smith
+Enter year of publication: 2023
+Enter book ID: B101
+Enter status (available/borrowed) or press Enter for default (available):
+
+Book added successfully!
+
+=== Library Management System ===
+1. Add Book
+2. Display All Books
+3. Exit
+4. Search Book
+Enter your choice: 2
+
+Book ID: B101
+Title: Python Basics
+Author: John Smith
+Year: 2023
+Status: available
+--------------------
+Press Enter to continue...
+
+=== Library Management System ===
+1. Add Book
+2. Display All Books
+3. Exit
+4. Search Book
+Enter your choice: 4
+
+Search for a Book
+1. Search by ID
+2. Search by Title
+3. Search by Status
+Enter your choice: 1
+Enter book ID to search: B101
+
+Found Books:
+Book ID: B101
+Title: Python Basics
+Author: John Smith
+Year: 2023
+Status: available
+--------------------
+Press Enter to continue...
+==============================================================================================================
+مثال بالعربية
+
+=== نظام إدارة المكتبة ===
+1. إضافة كتاب
+2. عرض جميع الكتب
+3. خروج
+4. بحث عن كتاب
+أدخل اختيارك: 1
+
+إضافة كتاب جديد
+أدخل عنوان الكتاب: أساسيات بايثون
+أدخل اسم المؤلف: محمد أحمد
+أدخل سنة النشر: 2023
+أدخل رقم الكتاب: B101
+أدخل الحالة (متاح/مستعار) أو اضغط Enter للحالة الافتراضية (متاح):
+
+تمت إضافة الكتاب بنجاح!
+
+=== نظام إدارة المكتبة ===
+1. إضافة كتاب
+2. عرض جميع الكتب
+3. خروج
+4. بحث عن كتاب
+أدخل اختيارك: 2
+
+رقم الكتاب: B101
+العنوان: أساسيات بايثون
+المؤلف: محمد أحمد
+سنة النشر: 2023
+الحالة: متاح
+--------------------
+اضغط Enter للاستمرار...
+
+=== نظام إدارة المكتبة ===
+1. إضافة كتاب
+2. عرض جميع الكتب
+3. خروج
+4. بحث عن كتاب
+أدخل اختيارك: 4
+
+البحث عن كتاب
+1. بحث برقم الكتاب
+2. بحث بعنوان الكتاب
+3. بحث بالحالة
+أدخل اختيارك: 1
+أدخل رقم الكتاب للبحث: B101
+
+الكتب الموجودة:
+رقم الكتاب: B101
+العنوان: أساسيات بايثون
+المؤلف: محمد أحمد
+سنة النشر: 2023
+الحالة: متاح
+--------------------
+اضغط Enter للاستمرار...
